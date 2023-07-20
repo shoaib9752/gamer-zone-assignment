@@ -58,14 +58,15 @@ header {
 .follow-us-on {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    
+
 
 
 }
-.yt{
+
+.yt {
     max-width: 24px;
     margin: 15px;
-    
+
     border: 0px;
 }
 
@@ -74,7 +75,7 @@ header {
 
 /* *main start */
 
-
+/* *play like the goat start */
 
 .banner-goat {
     display: flex;
@@ -86,7 +87,7 @@ header {
 
 .banner-goat-el {
     padding: 148px 244px;
-    
+
 }
 
 
@@ -108,45 +109,50 @@ header {
 
 
 }
-.b-p-1{
+
+.b-p-1 {
     color: #534C64;
     font-family: Work Sans;
     font-size: 1.25rem;
     font-weight: 500;
     padding-left: 12px;
-    
-    
-    
-}
-.b-p-2{
-    color: #534C64;
-    font-family: Work Sans;
-    font-size: 1.25rem;
-    font-weight: 500;
-    padding-left: 12px;
-   
-}
-.b-p-3{
-    color: #534C64;
-    font-family: Work Sans;
-    font-size: 1.25rem;
-    font-weight: 500;
-    padding-left: 12px;
-    
+
+
+
 }
 
-.pl{
+.b-p-2 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 12px;
+
+}
+
+.b-p-3 {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 12px;
+
+}
+
+.pl {
     border: none;
 }
-.dw{
+
+.dw {
     border: none;
 }
-.us{
-    border: none; 
+
+.us {
+    border: none;
     padding-right: 0px;
 }
 
-.sign-in{
+.sign-in {
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #FFF;
@@ -156,7 +162,8 @@ header {
     font-weight: 600;
     border: 0px;
 }
-.go-rogue{
+
+.go-rogue {
     border-radius: 48px;
     background: #4EC5F7;
     color: #FFF;
@@ -167,6 +174,80 @@ header {
     border: 0px;
     margin-left: 24px;
 }
+
+/* *play like the goat end */
+
+
+/* *we are gamer start */
+
+.we-are-gamer {
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    align-items: center;
+    justify-content: center;
+    padding: 55px 240px;
+
+}
+
+.we-are-gamer-content {
+    text-align: end;
+}
+
+.we-are-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.we-are-p1{
+color: #534C64;
+font-family: Work Sans;
+font-size: 1.12rem;
+font-weight: 400;
+padding-top: 24px;
+line-height: 30px;
+}
+
+.we-are-btn{
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+padding: 21px 40px;
+margin-top: 32px;
+color: #FFF;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 600;
+border: 0px;
+
+}
+
+.we-are-prps{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-family: Work Sans;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.we-are-unlsh{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 2rem;
+font-weight: 700;
+line-height: 45px;
+}
+
+
+
+/* *we are gamer end */
+
+
+
+
 
 /* *main end */
 
@@ -184,13 +265,13 @@ header {
 
     /* *header */
 
-    
+
 
 
 
     /* *play like the goat */
 
-    
+
 
 }
 
@@ -203,6 +284,6 @@ header {
 
     /* *header */
 
-   
+
 
 }
