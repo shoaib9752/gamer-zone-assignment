@@ -535,17 +535,117 @@ footer {
 
 @media screen and (max-width: 576px) {
 
-    /* *header */
+    
+
+    header{
+        display: grid;
+        padding: 5px;
+        
+        
+    }
+    .links{
+        display: grid;
+        text-align: center;
+    }
+
+    .follow-us-on{
+       margin-top: 10px;
+    }
+    .banner-goat-el{       
+       padding: 3px;
+    }
+
+.banner-goat{
+    display: grid;
+    
+}
+.banner-goat-image img{
+    max-width: 100%;
+}
+
+.we-are-gamer{
+    display: grid;
+    padding: 1px;}
+    
+.we-are-gamer-image img{
+    max-width: 100%;
+}
+
+
+.we-are-gamer-content{
+    display: grid;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+}
+
+.online-games .online-card{
+    display: grid;
+}
+
+.online-card img{
+    display: grid;
+    max-width: 100%;
+    padding: auto;
+}
+
+.play-instantly{
+    display: grid;
+   
+}
+.play-contents{
+   
+    margin-right: 100px;
+    padding-right: 20px;
+    
+}
+
+.play-image img{
+    max-width: 90%;
+    
+}
+
+.icon{
+    display: grid;
+}
+/* footer{
+    display: grid;
+} */
+.f-all-a a{
+    
+    justify-content: space-evenly;
+  
+    padding: 20px;
+}
+.footer-icons a{
+    display: grid;
+}
+
+.terms a{
+    display: grid;
+}
 
 
 
 
 
-    /* *play like the goat */
 
 
 
 }
+
+
+
+
+
+
+
+
+    
+
+
+
+
 
 
 
@@ -554,7 +654,7 @@ footer {
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
-    /* *header */
+    
 
 
 
