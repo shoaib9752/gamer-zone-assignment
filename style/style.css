@@ -294,7 +294,7 @@ header {
     justify-content: center;
     gap: 24px;
     text-align: start;
-    
+
 
 }
 
@@ -304,13 +304,110 @@ header {
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 120px;
+
+}
+
+
+/* online games funny videos end */
+
+
+/* Play Instantly start */
+
+.play-instantly {
+    display: flex;
+    background: #FFF;
+    justify-content: center;
+    margin: 100px;
+    align-items: center;
+}
+
+.play-contents {
+
+    text-align: end;
+    padding-right: 265px;
+
+
+}
+
+.play-i-h {
+    color: #F948B2;
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: Work Sans;
+
+
+
+}
+
+.play-nono {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+
+
+}
+
+.play-pp {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+
+}
+
+.play-img-t {
+    position: relative;
+    bottom: 250px;
+    right: 150px;
+
+}
+
+/* Play Instantly end */
+
+/* <!-- icons start --> */
+
+.icon {  
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 100px;
+    justify-content: space-evenly;
+    
+
+    
+
+}
+
+.iii {
+    
+
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+background: #FFF;
+
+}
+
+
+.iii h4{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-weight: 600;
+    margin: 20px 5px;
+    
+}
+
+.icon .iii h4:hover{
+    border: 3px dashed darksalmon ;
+    cursor: pointer;
+    background-color: antiquewhite;
     
 }
 
 
+/* <!-- icons end --> */
 
-
-/* online games funny videos end */
 
 
 
