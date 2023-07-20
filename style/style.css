@@ -2,13 +2,11 @@
 
 <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
-</style>
-
-*{
+</style>* {
     font-family: 'Open Sans', sans-serif;
 }
 
-*{
+* {
     margin: 0px;
     max-width: 1920px;
 }
@@ -17,56 +15,160 @@
 /* *header start */
 
 header {
-    
+
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 44px ;
+    padding: 44px;
 
 }
 
-.logo{
+.logo {
     display: flex;
     gap: 20px;
 }
 
 
 
-.g{
-color: #FF42A5;
-font-weight: 700;
-font-size: 2.8rem;
+.g {
+    color: #FF42A5;
+    font-weight: 700;
+    font-size: 2.8rem;
 }
-.amer{
-color: #0B0223;
-font-weight: 700;
-font-size: 2.8rem;
+
+.amer {
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 2.8rem;
 }
 
 
-.links a{
+.links a {
     padding: 20px;
     text-decoration: none;
     color: #3C354F;
     font-family: Work Sans;
     font-weight: 500;
     font-size: 1rem;
-    
+
 }
 
-.follow-us-on{
+.follow-us-on {
     border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
+    background: rgba(11, 2, 35, 0.10);
+    
 
 
+}
+.yt{
+    max-width: 24px;
+    margin: 15px;
+    
+    border: 0px;
 }
 
 
 /* *header end */
 
+/* *main start */
 
+
+
+.banner-goat {
+    display: flex;
+}
+
+.banner-goat-content {
+    background-image: url("../images/Group\ 14.png");
+}
+
+.banner-goat-el {
+    padding: 148px 244px;
+    
+}
+
+
+
+.b-h3 {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.b-h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 5.93rem;
+
+
+}
+.b-p-1{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 12px;
+    
+    
+    
+}
+.b-p-2{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 12px;
+   
+}
+.b-p-3{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-left: 12px;
+    
+}
+
+.pl{
+    border: none;
+}
+.dw{
+    border: none;
+}
+.us{
+    border: none; 
+    padding-right: 0px;
+}
+
+.sign-in{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    padding: 20px 40px;
+    font-size: 1.25rem;
+    font-family: Work Sans;
+    font-weight: 600;
+    border: 0px;
+}
+.go-rogue{
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    padding: 20px 40px;
+    font-size: 1.25rem;
+    font-family: Work Sans;
+    font-weight: 600;
+    border: 0px;
+    margin-left: 24px;
+}
+
+/* *main end */
 
 
 
@@ -82,19 +184,13 @@ background: rgba(11, 2, 35, 0.10);
 
     /* *header */
 
-    body{
-        max-width: 576px;
-    }
-
-    header{
-        display: grid;
-    }
-
-.links{
-    display: grid;  
-}
+    
 
 
+
+    /* *play like the goat */
+
+    
 
 }
 
@@ -104,16 +200,9 @@ background: rgba(11, 2, 35, 0.10);
 
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
-    
+
     /* *header */
 
-    header{
-        padding: 10px;
-    }
-
-
+   
 
 }
-
-
-
