@@ -654,7 +654,42 @@ footer {
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
 
-    
+    header{
+        padding: 0px;
+    }
+
+    ..we-are-gamer{
+        padding: 0px;
+    }
+
+    ..we-are-gamer-content{
+        text-align: left;
+    }
+
+.online-card {
+    display: grid;
+}
+
+.play-instantly{
+    display: grid;
+}
+.play-image{
+    display: grid;
+}
+.icon{
+    display: grid;
+}
+footer{
+    display: grid; 
+}
+.terms{
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+
+
 
 
 
